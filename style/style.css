@@ -11,6 +11,11 @@
   padding: 0px;
 }
 
+main {
+  max-width: 1140px;
+  margin: 0px auto;
+}
+
 /* shared style */
 .primary-color {
   color: #4E47FF;
@@ -28,6 +33,12 @@
   color: white;
   border: none;
   border-radius: 10px;
+
+}
+
+.btn-effect:hover {
+  background-color: #252432;
+  cursor: pointer;
 }
 
 /* header section style */
@@ -66,4 +77,90 @@ nav {
   font-weight: bold;
   max-width: 905px;
   padding-bottom: 37px;
+}
+
+/* Main section Style */
+.action {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.wc-mini {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wc-mini img {
+  width: 400px;
+  height: 328px;
+  border-radius: 48px;
+}
+
+.content {
+  max-width: 230px;
+}
+
+.content h2 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 23px;
+}
+
+.content p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(37, 36, 50, 0.5);
+  padding-bottom: 23px;
+}
+
+.content button {
+  background-color: #4E47FF;
+  padding: 15px 32px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* live-counting section style */
+.counting-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 80px;
+  background-color: rgba(78, 71, 255, 0.1);
+  border: none;
+  border-radius: 24px;
+  margin-bottom: 137px;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #252432;
+  padding-bottom: 40px;
+}
+
+.mother-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.count-value {
+  font-size: 80px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.count-title {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.counter-card {
+  text-align: center;
 }
