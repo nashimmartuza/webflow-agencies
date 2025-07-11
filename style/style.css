@@ -47,8 +47,10 @@ main {
   background-image: url(../assets/Hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
 
-
+body {
+  background-color: #f6f8fe;
 }
 
 nav {
@@ -186,7 +188,7 @@ nav {
 
 .review-child-card {
   width: 366px;
-  background-color: #f4f9ffa1;
+  background-color: #FFFFFF;
   padding: 24px;
   border: 1px solid rgba(242, 237, 237, 1);
   border-radius: 14px;
@@ -237,4 +239,115 @@ nav {
 
 .review-child-card:hover {
   background-color: #E8F3FF;
+}
+
+/* Footer Section style */
+.form {
+  justify-items: center;
+}
+
+.footer-form {
+  max-width: 1140px;
+  display: flex;
+  flex-direction: row;
+  padding: 71px 0px;
+  gap: 100px;
+}
+
+.form-section-title {
+  width: 50%;
+}
+
+.form-section-title h3 {
+  font-size: 97px;
+  font-weight: bold;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-box label,
+input {
+  display: block;
+}
+
+.form-box label {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  padding-bottom: 10px;
+}
+
+.form-box input,
+textarea {
+  background-color: #ffffff;
+  padding: 20px 32px;
+  border-radius: 10px;
+  /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); */
+  width: 500px;
+  border: 1px solid #D6DDED;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.form-box input::placeholder,
+textarea::placeholder {
+  color: #888;
+  font-size: 20px;
+}
+
+.form-box input[type="button"] {
+  width: 100%;
+  background-color: #4E47FF;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-box input[type="button"]:hover {
+  background-color: #252432;
+}
+
+.footer {
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.footer-section {
+  align-items: center;
+  height: 428px;
+  padding-top: 104px;
+}
+
+.footer-section h1 {
+  font-size: 100px;
+  font-weight: 900;
+  color: #4E47FF;
+}
+
+.footer-section p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8987A1;
+  padding-bottom: 10px;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer ul li {
+  padding: 20px 20px 0px 20px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8987A1;
 }
